@@ -1,0 +1,50 @@
+.header-bg{
+    position : absolute;
+    z-index: -2;
+    background-image : linear-gradient( rgb(255, 252, 162), rgb(255, 245, 170));
+    border-bottom: 3px solid rgb(255, 0, 8);
+    width : 100%;
+    min-width: 800px;
+    height : 100px;
+}
+.logo-cont{
+    display : inline;
+    z-index : -1;
+    bottom : 100px;
+}
+.nav-bar{
+    display : inline;
+    position : absolute;
+    right: 10px;
+    left: 350px;
+    bottom: 100px;
+}
+.nav-grid > div{
+    display : inline;
+    grid-row : 1;
+}
+.nav-grid{
+    display : grid;
+    grid-template-columns : 3;
+    grid-column-gap : 10%;
+}
+.nav-button{
+    display : inline;
+    z-index: -1;
+}
+.header-cont{
+    position : relative;
+}
+body{
+    margin : 0;
+}
+#renderCanvas{
+    width: 100%;
+    height: 65vw;
+    min-width: 800px;
+    min-height: 520px;
+    top : 100px;
+    z-index: -3;
+    position : absolute;
+    touch-action: none;
+}
