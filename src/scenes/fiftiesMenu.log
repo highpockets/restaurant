@@ -1,0 +1,64 @@
+Exporter version: 6.2.4, Blender version: 2.81 (sub 16)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		texture directory   :  /Users/kristobiasson/odin_on_rails/restaurant/src/scenes/
+	Python World class constructor completed
+	processing begun of camera (UniversalCamera):  Camera
+	processing begun of mesh:  backPage
+		processing begun of material:  cover
+		processing begun of material:  inner
+			processing texture fiftiesDinerMenu_001
+				texture type:  diffuseTexture, mapped using: "UVMap"
+			processing texture fiftiesDinerMenu_002
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  fiftiesMenu.Multimaterial#0
+		num positions      :  21
+		num normals        :  21
+		num tangents       :  0
+		num uvs            :  42
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of mesh:  titlePage
+		processing begun of material:  cover
+		processing begun of material:  inner
+			processing texture fiftiesDinerMenu_001
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		registered as also a user of material:  inner
+		processing begun of multimaterial:  fiftiesMenu.Multimaterial#1
+		num positions      :  22
+		num normals        :  22
+		num tangents       :  0
+		num uvs            :  44
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  24
+	processing begun of node:  fiftiesMenu
+	processing begun of mesh:  Cube
+		processing begun of material:  menuSelection
+		processing begun of material:  menuSelectFrame
+			processing texture mainMenu
+				texture type:  diffuseTexture, mapped using: "UVMap"
+		processing begun of multimaterial:  fiftiesMenu.Multimaterial#2
+		num positions      :  25
+		num normals        :  25
+		num tangents       :  0
+		num uvs            :  50
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of light (POINT):  Light
+========= Writing of JSON file started =========
+	writing mesh:  backPage
+	writing mesh:  titlePage
+	writing mesh:  Cube
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.0174 secs

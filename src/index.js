@@ -1,11 +1,14 @@
 'use strict';
 
 import{ headerFactory } from './modules/header.js';
+import { footerFactory } from './modules/footer.js';
 import { bodyFactory } from './modules/body.js';
+import './index.css';
 
-let parentNode = document.getElementById('content');
-let siteHeader = headerFactory(parentNode, ["Home", "Menu", "Contact"]);
-let siteBody = bodyFactory(parentNode, siteHeader.navButtons);
+const parentNode = document.getElementById('content');
+const siteHeader = headerFactory(parentNode, ["Home", "Menu", "Contact"]);
+const siteBody = bodyFactory(parentNode, siteHeader.navButtons);
+footerFactory(parentNode);
 
 siteBody.engine.runRenderLoop(() =>{
     siteBody.scene.render();
